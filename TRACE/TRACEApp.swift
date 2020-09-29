@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct TRACEApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
