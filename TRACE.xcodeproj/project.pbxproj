@@ -18,6 +18,7 @@
 		604A3D5A2522D1F10074F769 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604A3D582522D1F10074F769 /* GoogleService-Info.plist */; };
 		604A3D5B2522D1F10074F769 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604A3D582522D1F10074F769 /* GoogleService-Info.plist */; };
 		604A3D7C2522D7C90074F769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A3D7B2522D7C90074F769 /* AppDelegate.swift */; };
+		C9EA2360252394490080FF82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA235F252394490080FF82 /* main.swift */; };
 		CF813ECBE3D4FECF3D56D388 /* Pods_TRACE_TRACEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF767FF6F2EC748DBD3F6E4 /* Pods_TRACE_TRACEUITests.framework */; };
 		DEEDA282AC08AB5A0C13DFC4 /* Pods_TRACETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9342CB9EB0B5FEC941086CC /* Pods_TRACETests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		8C211D23793B2B320CDBD80C /* Pods-TRACE-TRACEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRACE-TRACEUITests.debug.xcconfig"; path = "Target Support Files/Pods-TRACE-TRACEUITests/Pods-TRACE-TRACEUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB1B30B766D8BAA09F6612CD /* Pods-TRACE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRACE.release.xcconfig"; path = "Target Support Files/Pods-TRACE/Pods-TRACE.release.xcconfig"; sourceTree = "<group>"; };
 		C815C637B2619E6B6C0B9EDC /* Pods_TRACE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRACE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EA235F252394490080FF82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CEF767FF6F2EC748DBD3F6E4 /* Pods_TRACE_TRACEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRACE_TRACEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FACDE6761E5F02A118C0EE /* Pods-TRACETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRACETests.debug.xcconfig"; path = "Target Support Files/Pods-TRACETests/Pods-TRACETests.debug.xcconfig"; sourceTree = "<group>"; };
 		F48005F06B966E5A53ECD58E /* Pods-TRACE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRACE.debug.xcconfig"; path = "Target Support Files/Pods-TRACE/Pods-TRACE.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				604A3D312522C46C0074F769 /* Info.plist */,
 				604A3D2E2522C46C0074F769 /* Preview Content */,
 				604A3D7B2522D7C90074F769 /* AppDelegate.swift */,
+				C9EA235F252394490080FF82 /* main.swift */,
 			);
 			path = TRACE;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 			files = (
 				604A3D7C2522D7C90074F769 /* AppDelegate.swift in Sources */,
 				604A3D2B2522C4670074F769 /* ContentView.swift in Sources */,
+				C9EA2360252394490080FF82 /* main.swift in Sources */,
 				604A3D292522C4670074F769 /* TRACEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
